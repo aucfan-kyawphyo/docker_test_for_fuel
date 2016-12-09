@@ -1,5 +1,5 @@
 test:
-  image: php7-fpm-nginx-xdebug
+  image: kyawphyonaing/php7-fpm-nginx-xdebug
   ports:
    - "8080:80"
   volumes:
