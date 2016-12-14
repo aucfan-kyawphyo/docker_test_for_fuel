@@ -1,0 +1,33 @@
+version: '2'
+services:
+
+    redis:
+      image: "redis:latest"
+
+    db:
+      image: kyawphyonaing/mysql5.5
+      environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: aucfanpro
+        MYSQL_USER: user
+        MYSQL_PASSWORD: user
+        MYSQL_HOST: ""
+
+      mem_limit: 1000000000
+      volumes:
+        - ./db/:/docker-entrypoint-initdb.d
+      ports:
+        - "33333:3306"
+
+    base:
+      image: kyawphyonaing/base-mysql-redis
+      ports:
+        - "8080:80"
+        - "6379:6379"
+        - "3306:3306"
+      links:
+        - redis
+        - db
+      volumes:
+        - ../../docker_test_for_fuel:/data/www
+        - /var/log

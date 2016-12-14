@@ -79,3 +79,23 @@ WARNING - 2016-12-09 16:38:21 --> Fuel\Core\Fuel::init - The configured locale j
 INFO - 2016-12-09 16:38:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
 INFO - 2016-12-09 16:38:21 --> Fuel\Core\Request::execute - Called
 INFO - 2016-12-09 16:38:21 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2016-12-09 17:22:22 --> Fuel\Core\Fuel::init - The configured locale ja_jp.UTF-8 is not installed on your system.
+INFO - 2016-12-09 17:22:22 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2016-12-09 17:22:22 --> Fuel\Core\Request::execute - Called
+INFO - 2016-12-09 17:22:22 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2016-12-09 17:22:24 --> Fuel\Core\Fuel::init - The configured locale ja_jp.UTF-8 is not installed on your system.
+INFO - 2016-12-09 17:22:24 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2016-12-09 17:22:24 --> Fuel\Core\Request::execute - Called
+INFO - 2016-12-09 17:22:24 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2016-12-09 17:23:57 --> Fuel\Core\Fuel::init - The configured locale ja_jp.UTF-8 is not installed on your system.
+INFO - 2016-12-09 17:23:57 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2016-12-09 17:23:57 --> Fuel\Core\Request::execute - Called
+INFO - 2016-12-09 17:23:57 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2016-12-09 17:30:29 --> Fuel\Core\Fuel::init - The configured locale ja_jp.UTF-8 is not installed on your system.
+INFO - 2016-12-09 17:30:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2016-12-09 17:30:29 --> Fuel\Core\Request::execute - Called
+INFO - 2016-12-09 17:30:29 --> Fuel\Core\Request::execute - Setting main Request
+WARNING - 2016-12-09 23:18:21 --> Fuel\Core\Fuel::init - The configured locale ja_jp.UTF-8 is not installed on your system.
+INFO - 2016-12-09 23:18:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2016-12-09 23:18:21 --> Fuel\Core\Request::execute - Called
+INFO - 2016-12-09 23:18:21 --> Fuel\Core\Request::execute - Setting main Request

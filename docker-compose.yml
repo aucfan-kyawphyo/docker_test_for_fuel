@@ -1,7 +1,0 @@
-test:
-  image: kyawphyonaing/php7-fpm-nginx-xdebug
-  ports:
-   - "8080:80"
-  volumes:
-    - ../docker_test_for_fuel:/data/www
-    - /var/log
